@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //đếm các số chia 7 dư 5 từ a đến b, ab nhập vào
+       
+        let a = +prompt("Nhập số đầu tiên: ");
+        let b = +prompt("Nhập số cuối: ");
+        let count = 0;
+        for(let i = a; i <= b; i++){
+            if(i % 7 == 5){
+                count++;              
+            }           
+        }
+        document.write(count);
+    </script>
+</body>
+</html>
